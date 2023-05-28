@@ -1,5 +1,7 @@
 <template>
     <v-list v-model:opened="open">
+        <v-btn variant="plain" to="/admin/dashboard" elevation="0" class="my-5">Logo dito</v-btn>
+
         <v-list-item
             prepend-icon="mdi-view-dashboard"
             to="/admin/dashboard"
