@@ -20,12 +20,13 @@ const useAuthStore = useAuthenticated();
 const login = () => {
     useAuthStore.login();
 
-    if(route.query) {
-        return router.push(route.redirectedFrom.fullPath)
+    if(route.redirectedFrom) {
+        router.push(route.redirectedFrom.fullPath)
+    } else {
+        router.push({ name: "admin.dashboard" });
     }
-
-    router.push({ name: "admin.dashboard" });
 };
+
 useHead({
     title: "Signup | SSAVANT",
     meta: [
