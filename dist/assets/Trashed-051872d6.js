@@ -1,0 +1,1 @@
+import{o as a,c as e,w as s,_ as t,a as _}from"./index-bebfab0c.js";const c=_("div",null,"Trash",-1),u={__name:"Trashed",setup(o){return(r,n)=>(a(),e(t,null,{default:s(()=>[c]),_:1}))}};export{u as default};

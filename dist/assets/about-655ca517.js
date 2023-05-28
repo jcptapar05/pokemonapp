@@ -1,0 +1,1 @@
+import{_ as a}from"./PublicLayout-d6b4bdf0.js";import{u as t,o as e,c as o,w as s,a as n}from"./index-bebfab0c.js";const r=n("div",null,"About",-1),i={__name:"about",setup(_){return t({title:"About | SSAVANT",meta:[{name:"Home | Dashboard",content:"SSAVANT Admin Dashboard"}]}),(c,u)=>(e(),o(a,null,{default:s(()=>[r]),_:1}))}};export{i as default};

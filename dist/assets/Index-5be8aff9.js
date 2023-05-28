@@ -1,0 +1,1 @@
+import{o as e,c as a,w as t,_ as s,a as _}from"./index-bebfab0c.js";const c=_("div",null,"Create",-1),u={__name:"Index",setup(o){return(n,r)=>(e(),a(s,null,{default:t(()=>[c]),_:1}))}};export{u as default};
