@@ -1,5 +1,11 @@
 <template>
-    <v-card rounded="xl" class="pa-6" title="Enrolled Learners">
+    <v-card
+        rounded="xl"
+        class="pa-6"
+        title="Enrolled Learners"
+        color="white"
+        theme="dark"
+    >
         <div id="chart">
             <apexchart
                 type="area"

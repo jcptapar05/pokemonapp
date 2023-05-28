@@ -50,7 +50,7 @@
     >
         <v-col>
             <v-btn icon id="mode-switcher" @click="toggleTheme()">
-                <v-icon color="primary">
+                <v-icon color="warning">
                     {{
                         darkMode.isDark
                             ? "mdi-weather-night"

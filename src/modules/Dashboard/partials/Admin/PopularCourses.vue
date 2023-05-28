@@ -1,5 +1,5 @@
 <template>
-    <v-card rounded="xl" class="pa-6" height="100%">
+    <v-card rounded="xl" class="pa-6" height="100%" color="white" theme="dark">
         <template v-slot:title> Popular Courses </template>
         <div id="chart">
             <apexchart
