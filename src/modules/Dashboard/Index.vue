@@ -1,14 +1,14 @@
 <template>
     <AdminLayout>
         <div>
-            <v-row class="align-stretch justify-stretch">
-                <v-col col="12" md="4">
+            <v-row>
+                <v-col cols="12" md="4">
                     <Shortcut></Shortcut>
                 </v-col>
-                <v-col col="12" md="4">
+                <v-col cols="12" md="4">
                     <Learners class="h-100"></Learners>
                 </v-col>
-                <v-col col="12" md="4">
+                <v-col cols="12" md="4">
                     <Courses class="h-100"></Courses>
                 </v-col>
             </v-row>
@@ -49,5 +49,3 @@ useHead({
     ],
 });
 </script>
-
-<style></style>

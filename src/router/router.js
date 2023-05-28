@@ -1,7 +1,7 @@
 import { useAuthenticated } from "@/store/auth";
 import { createRouter, createWebHistory } from "vue-router";
 
-import Dashboard from "@/modules/dashboard/index.vue";
+import Dashboard from "@/modules/Dashboard/Index.vue";
 
 const moduleroutes = import.meta.globEager("@/modules/*/routes/*.js");
 const publicroutes = import.meta.globEager("@/public/*/routes/*.js");

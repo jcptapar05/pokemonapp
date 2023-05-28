@@ -12,13 +12,18 @@
 import PublicLayout from "@/layouts/PublicLayout.vue";
 import { useHead } from "@vueuse/head";
 import { useAuthenticated } from "@/store/auth";
-import { useRouter } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 
 const router = useRouter();
+const route = useRoute();
 const useAuthStore = useAuthenticated();
 
 const login = () => {
     useAuthStore.login();
+
+    if(route.query) {
+        return router.push(route.redirectedFrom.fullPath)
+    }
 
     router.push({ name: "admin.dashboard" });
 };

@@ -1,6 +1,6 @@
 <template>
     <AdminLayout>
-        <div>Create</div>
+        <div>Created at</div>
     </AdminLayout>
 </template>
 
