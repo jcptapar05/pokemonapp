@@ -9,7 +9,10 @@
                 v-for="list in pokemonStore.pokemonlists"
                 :key="list.name"
             >
-                <router-link :to="'/pokemon/' + list.id" style="text-decoration: none">
+                <router-link
+                    :to="'/pokemon/' + list.id"
+                    style="text-decoration: none"
+                >
                     <v-card
                         class="pa-4"
                         rounded="xl"
@@ -55,7 +58,8 @@
                             </div>
 
                             <v-avatar class="ma-3 px-2" size="125" rounded="0">
-                                <v-img class="w-100"
+                                <v-img
+                                    class="w-100"
                                     :src="list.sprites.other.home.front_default"
                                 ></v-img>
                             </v-avatar>

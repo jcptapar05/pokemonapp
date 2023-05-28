@@ -31,9 +31,9 @@
 
         <v-main>
             <v-container class="my-8" fluid>
-                <!-- <transition name="slide-x" mode="out-in" appear> -->
+                <transition name="slide-x" mode="out-in" appear>
                     <slot></slot>
-                <!-- </transition> -->
+                </transition>
             </v-container>
         </v-main>
     </v-app>

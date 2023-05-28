@@ -1,7 +1,7 @@
 <template>
     <v-app>
-        <v-app-bar class="px-10 py-3" density="compact" elevation="1">
-            <router-link to="/">
+        <v-app-bar class="py-3" density="compact" elevation="1">
+            <router-link to="/" class="ms-10">
                 <v-avatar color="grey-darken-1" size="32"></v-avatar>
             </router-link>
 
@@ -26,7 +26,7 @@
                         </v-icon>
                     </v-btn>
                 </template>
-                <v-list width="140">
+                <v-list width="200">
                     <v-list-item to="/login"> Login </v-list-item>
                     <v-list-item to="/signup"> Signup </v-list-item>
                     <v-divider></v-divider>

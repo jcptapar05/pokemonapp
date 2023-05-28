@@ -12,12 +12,17 @@
                     <Courses class="h-100"></Courses>
                 </v-col>
             </v-row>
-            <v-row>
+            <v-row class="my-4">
                 <v-col cols="12" md="8">
                     <EnrolledLearners></EnrolledLearners>
                 </v-col>
                 <v-col cols="12" md="4">
                     <PopularCourses></PopularCourses>
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col cols="12">
+                    <DashboardCourses></DashboardCourses>
                 </v-col>
             </v-row>
         </div>
@@ -29,6 +34,7 @@ import AdminLayout from "@/layouts/AdminLayout.vue";
 import { useHead } from "@vueuse/head";
 import EnrolledLearners from "./partials/Admin/EnrolledLearners.vue";
 import PopularCourses from "./partials/Admin/PopularCourses.vue";
+import DashboardCourses from "./partials/Admin/DashboardCourses.vue";
 import Shortcut from "./partials/Admin/toolbars/Shortcut.vue";
 import Learners from "./partials/Admin/toolbars/Learners.vue";
 import Courses from "./partials/Admin/toolbars/Courses.vue";

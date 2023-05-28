@@ -4,12 +4,17 @@ import "vuetify/styles";
 import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
+import * as labsComponents from 'vuetify/labs/components'
 import { aliases, mdi } from "vuetify/iconsets/mdi";
 
-import { dark, light } from '../themes';
+// Themes.js
+import { dark, light } from "../themes";
 
 const vuetify = createVuetify({
-    components,
+    components: {
+        ...components,
+        ...labsComponents,
+    },
     directives,
     theme: {
         defaultTheme: "light",
