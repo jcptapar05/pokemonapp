@@ -2,7 +2,7 @@
     <v-card rounded="xl" color="white" theme="light">
         <v-card-title class="mt-4">
             <v-row width="300">
-                <v-col cols="4">
+                <v-col cols="8" md="4">
                     <v-text-field
                         clearable
                         label="Search..."
@@ -11,7 +11,7 @@
                         rounded="xl"
                     ></v-text-field>
                 </v-col>
-                <v-col cols="8"></v-col>
+                <v-col cols="4" md="8"></v-col>
             </v-row>
         </v-card-title>
         <v-data-table
