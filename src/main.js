@@ -10,7 +10,7 @@ const pinia = createPinia()
 import { createHead } from "@vueuse/head";
 
 import VueApexCharts from "vue3-apexcharts";
-import './registerServiceWorker'
+
 const head = createHead();
 
 createApp(App).use(head).use(VueApexCharts).use(pinia).use(router).use(vuetify).mount('#app')
