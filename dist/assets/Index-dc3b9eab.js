@@ -1,0 +1,1 @@
+import{o as e,c as a,w as t,_ as s,a as _}from"./index-1c4abb5e.js";const o=_("div",null,"Home",-1),u={__name:"Index",setup(c){return(n,r)=>(e(),a(s,null,{default:t(()=>[o]),_:1}))}};export{u as default};
